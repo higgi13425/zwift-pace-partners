@@ -1,0 +1,253 @@
+---
+title: "Graded Training with Pace Partners"
+author: "Peter Higgins"
+date: "5/31/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Pace Partners in Zwift
+
+What are Pace Partners?
+
+text here from ZInsider
+
+Why can't we all have our own Pace Partners? It would be super-customized and awesome!
+
+This would be very computationally expensive for up to 40,000+ riders. Custom pace partners for everyone is impractical, unless (maybe) this done on the client side (rather than on the ZHQ servers), and your phone/android tablet/12 year old iMac is probably not up to running Zwift, your avatar, and a Pace Partner all at once.
+
+But there is a reasonable approximation that could be created.
+
+## Why Does Everyone *Want* Their Own Custom Pace Partner?
+
+Because it is really effective training to push yourself to keep up with someone who is a little bit faster than you. Out on the road IRL, it is a lot of fun to catch someone just a little bit faster than you, and to try to hang on as long as you can. You can stretch yourself, but not too much, and hide in the draft when you need to rest. It would be ideal to train with someone who is always (just a little bit) faster than you, and try to keep up. This is what is called Progressive Resistance Exercise (PRE).
+
+## What is Progressive Resistance Exercise (PRE)?
+
+Details about Progressive Resistance Exercise here.\
+<https://academic.oup.com/ptj/article/85/11/1208/2805087>
+
+Benefits include: increased ability of the trained muscles to produce force, benefits across the range of fitness, from impaired to young and able.
+
+Beneficial effect on lowering blood pressure
+
+Quite safe, even in injured or impaired ppl
+
+Examples
+
+"handicapping" horses with weights
+
+batters box - bat with weight - baseball doughnut, "hitting jack-it"
+
+Weight lifting
+
+Physical therapy/therapy bands
+
+Weighted vests, air masks, treadmills with slopes
+
+Training for a century - increase mileage by no more than 10% per week.
+
+## How Well do Pace Partners work for Progressive Resistance Exercise?
+
+The four cycling Pace Partners have stable watts per kilogram (w/kg) which could make for a good progressive resistance training experience. However, there has been a lot of vigorous discussion/complaints on the Zwift Forums about the leap from 1.5 W/KG with D. Diesel to the 2.5 w/kg with C. Cadence. Many riders feel that the gap between D and C is too large. Is that really a problem? Let's see how this works out with a table.
+
+| Pace Partner | W/KG | Percent Increase |
+|--------------|------|------------------|
+| D. Diesel    | 1.5  | --               |
+| C. Cadence   | 2.5  | 66.6%            |
+| B. Brevet    | 3.2  | 28.0%            |
+| A. Anquetil  | 4.2  | 31.3%            |
+
+: Existing Cycling Pace Partners with watts per kilogram and percent increase.
+
+As you can see, there is a \~ 30% jump between C and B, and between B and A, but the leap from D to C is more than twice as large. The folks trying to make the leap from D to C have a strong case that another Pace Partner, between D and C, is needed. Their complaints appear to be justified.
+
+## What would this look like with 5 Cycling Pace Partners?
+
+A new version with 5 Pace Partners evens out the difficulty progressions to be all close to 30%, without big changes in watts per kilogram. Note that this new proposed version includes updated colors to match the color zones in Zwift (which also match the color order of a rainbow, so that it is easy to remember).
+
+| Pace Partner | W/KG | Percent Increase | Color  |
+|--------------|------|------------------|--------|
+| E. Endura    | 1.5  | --               | Blue   |
+| D. Diesel    | 1.95 | 30.0%            | Green  |
+| C. Cadence   | 2.55 | 30.7%            | Yellow |
+| B. Brevet    | 3.3  | 29.4%            | Orange |
+| A. Anquetil  | 4.3  | 30.3%            | Red    |
+
+: New Cycling Pace Partners with watts per kilogram and percent increase (and ordered colors).
+
+By adding a 5th Pace Partner, and slightly modifying the w/kg steps, we can produce a steady progression of resistance across the cycling Pace Partners.
+
+## Do Running Pace Partners Have the Same Problem?
+
+Let's take a look at the Running Pace Partners, using the same sort of table.
+
++---------------+-----------------+-----------------+-----------------+
+| Pace Partner  | mile Pace       | km Pace         | Percent Change  |
++===============+=================+=================+=================+
+| Dax Diesel    | 12:04           | 724             | --              |
++---------------+-----------------+-----------------+-----------------+
+| Cara Cadence  | 10:44           | 644             | 11.0%           |
++---------------+-----------------+-----------------+-----------------+
+| Billie Benoit | 8:07            | 487             | 24.4%           |
++---------------+-----------------+-----------------+-----------------+
+| Alton Able    | 6:54            | 414             | 15.0%           |
++---------------+-----------------+-----------------+-----------------+
+
+: Existing Running Pace Partners with seconds per mile and percent change.
+
+The runners do not have the same problem, but there **is** a progression problem. There is **not** an unusually large jump between D and C, but there clearly a **big** jump between C and B - more than twice as large as the jump between D and C.
+
+## What would this look like with 5 Running Pace Partners?
+
+Here is new version with 5 Pace Partners that evens out the difficulty gradations to all be close to 13%, without big changes in time per mile. Note that this new proposed version includes updated colors to match the color zones in Zwift (which also match the color order of a rainbow, so that it is easy to remember).
+
+Here is an updated list of Running Pace Partners, using the same table.
+
++---------------+-----------+-----------+-----------------+-----------+
+| Pace Partner  | mile Pace | km Pace   | Percent Change  | Color     |
++===============+===========+===========+=================+===========+
+| Eva Endura    | 12:04     | 7:33      | --              | Blue      |
++---------------+-----------+-----------+-----------------+-----------+
+| Dax Diesel    | 10:30     | 6:34      | 13.0%           | Green     |
++---------------+-----------+-----------+-----------------+-----------+
+| Cara Cadence  | 9:08      | 5:43      | 13.0%           | Yellow    |
++---------------+-----------+-----------+-----------------+-----------+
+| Billie Benoit | 7:57      | 4:58      | 13.0%           | Orange    |
++---------------+-----------+-----------+-----------------+-----------+
+| Alton Able    | 6:55      | 4:19      | 13.0%           | Red       |
++---------------+-----------+-----------+-----------------+-----------+
+
+: Proposed Running Pace Partners with seconds per mile and percent change.
+
+This evens out the gradations between each pace partner, while preserving the existing speeds at the top and bottom end, and adding Pace Partner colors in the order of the wavelength spectrum.
+
+## Are the Progression Steps too large?
+
+Progressive resistance training should be done with stepwise increases in resistance that are not too large, and not too small. We need smaller steps between Pace Partners. While running \~50 Pace Partners would be great, it would ruin the social pack aspect of Pace Partners, and is impractical computationally.
+
+However, we can simulate the effect of 45 Pace Partners with bikes that have 9 levels of progressively more resistance, providing us with 5 (Pace Partners) x 9 (Training Bikes) = 45 levels of resistance training.
+
+Ideally, cyclists would have a series of \~9 bikes that are progressively slower (more resistance/weight), to help us work up to the next Pace Partner.
+
+Fortunately, we do already have some slower bikes to choose from: gravel bikes and mountain bikes. These are significantly slower on tarmac when compared to a road bike (let's use the Zwift Steel frame as our road bike example). How much slower are gravel and mountain bikes? Let's use Zwift Insider's speed tests on Tempus Fugit to measure this.
+
+| Bike         | 2 lap Tempus Fugit time | Time in sec | Percent Slower |
+|--------------|-------------------------|-------------|----------------|
+| Zwift Steel  | 52:40                   | 3100        | --             |
+| Zwift Gravel | 53:54                   | 3174        | 2.39           |
+| Zwift MTB    | 55:53                   | 3348        | 6.23           |
+
+: Zwift Insider Time for 2 laps of Tempus Fugit with a 183 cm rider weighing 75kg for Different Bikes with Zwift 32 mm Carbon wheels
+
+Now, this does not account for rolling hills or significant climbing, but it gives you a general idea of how much slower these bikes are, and how much harder you would have to work to keep up with a Pace Partner, compared to a road bike. This is roughly \~ 3-4% per step. And at least with the Mountain bike, it is a clear visual signal that you are "handicapping" yourself (in the horse-racing sense), and still putting out enough watts/kg to keep up with the Pace Partner (Go you!). But these bikes do not provide enough resistance steps to get you to the next Pace Partner. Even with the proposed 5 Pace Partners, you are a long way from the 30% increase needed to ride with the next faster Pace Partner. And you are a **very** long way from making the current 67% leap from D. Diesel to C. Cadence.
+
+## A Call for Slower Bikes
+
+While we normally want the fastest bike possible for racing, with the coolest and sleekest profile, this is not ideal for training. Training should be done with gradually increased resistance. Ideally we would have more slow bikes, in a graded progression of \~ 4% more resistance, to help us take small steps up the ladder to the next Pace Partner.
+
+And, ideally, these "training bikes" would have clear visual cues, so that everyone knows you are working harder to keep up. Why do we need these visual cues? Well, people want to look good, and if they are working especially hard not to get dropped by D. Diesel, they want other people to know why.
+
+So, what would slower "training bikes" look like? Fortunately, Zwift HQ has already built some.
+
+1.  The Buffalo Bike - the Buffalo Fahrrad - a heavy single speed bike with a coaster brake, built for the World Bicycle Relief event (and built IRL for durable low-cost transportation) is a perfect, distinctive "training bike".\
+    [insert image]
+
+2.  The Big Wheel Bike - used on April Fools' Day in 2015 and 2021.\
+    [insert image]
+
+3.  The old-timey bike from April 2016\
+    [insert image]
+
+## How would Slow Training Bikes Perform?
+
+We would want steps that are roughly equivalent to the road to gravel bike, and gravel to mountain bike transitions, and have enough of them to get us steps up to 30% (where the next Pace Partner is). This would be about 4% per step, so the performance would look like the table below.
+
++---------------+-------------------------+---------------+----------------+
+| Bike          | 2 lap Tempus Fugit time | Time in sec   | Percent Slower |
++===============+=========================+===============+================+
+| Zwift Steel   | 52:40                   | 3100          | --             |
++---------------+-------------------------+---------------+----------------+
+| Zwift Gravel  | 53:54                   | 3174          | 2.39           |
++---------------+-------------------------+---------------+----------------+
+| Zwift MTB     | 55:53                   | 3348          | 6.23           |
++---------------+-------------------------+---------------+----------------+
+| Training 1    | 57:50                   | 3410          | 10.00          |
++---------------+-------------------------+---------------+----------------+
+| Training 2    | 59:54                   | 3534          | 14.00          |
++---------------+-------------------------+---------------+----------------+
+| Training 3    | 60:56                   | 3596          | 16.00          |
++---------------+-------------------------+---------------+----------------+
+| Training 4    | 62:00                   | 3720          | 20.00          |
++---------------+-------------------------+---------------+----------------+
+| Training 5    | 64:04                   | 3844          | 24.00          |
++---------------+-------------------------+---------------+----------------+
+| Training 6    | 66:08                   | 3968          | 28.00          |
++---------------+-------------------------+---------------+----------------+
+
+: Zwift Insider Time for 2 laps of Tempus Fugit with a 183 cm rider weighing 75kg for Different Bikes with Zwift 32 mm Carbon wheels (with proposed Training Bikes added)
+
+When you can ride comfortably with C. Cadence for an hour, you can then try to do this with a gravel bike. When that is comfortable, you can step up to a mountain bike. Then onward through Training bikes 1-6. When you can do this with Training bike 6, you are ready to step up to riding with the next Pace Partner, B. Brevet, (but now on a road bike). This sets up a very straightforward training plan for anyone who wants to use Progressive Resistance Training to improve their strength and speed.
+
+## What Would Slow Trainer Bikes Look Like?
+
+The Buffalo Bike and the Big Wheel bike would be a great start, and each offers a distinctive look. What could some other distinctive training bikes look like? Here are some ideas (tell me which you like most, what (progressive resistance - from low to high resistance) order they should go in, and add more ideas in the comments):
+
+1.  High-wheeler (pennyfarthing) bike\
+    [insert image]
+2.  Beach Cruiser with fat tires\
+    [insert image]
+3.  Electra flat-foot bike with basket of groceries\
+    [insert image]
+4.  Bianchi City Vintage with rear-mounted espresso machine\
+    [insert images]
+5.  Full Amsterdam bike with basket, panniers, mudguards, and baby trailer\
+    [insert image]
+6.  Front-trunk Cargo bike\
+    [insert image]
+
+We need 6 more training bikes in addition to the Gravel and Mountain bikes. Which would you like to see, and in what order? Let us know in the comments.
+
+## What About PRE for Runners?
+
+The running Pace Partners have gradations of 13%, so it would be nice to have "handicaps" that are roughly \~ 2% progressive resistance steps, in addition to the 5 evenly-spaced Pace partners.
+
++---------------+-----------+-----------+-----------------+-----------+
+| Pace Partner  | mile Pace | km Pace   | Percent Change  | Color     |
++===============+===========+===========+=================+===========+
+| Eva Endura    | 12:04     | 7:33      | --              | Blue      |
++---------------+-----------+-----------+-----------------+-----------+
+| Dax Diesel    | 10:30     | 6:34      | 13.0%           | Green     |
++---------------+-----------+-----------+-----------------+-----------+
+| Cara Cadence  | 9:08      | 5:43      | 13.0%           | Yellow    |
++---------------+-----------+-----------+-----------------+-----------+
+| Billie Benoit | 7:57      | 4:58      | 13.0%           | Orange    |
++---------------+-----------+-----------+-----------------+-----------+
+| Alton Able    | 6:55      | 4:19      | 13.0%           | Red       |
++---------------+-----------+-----------+-----------------+-----------+
+
+What might these 'handicaps" look like? Zwift HQ has already built one, the Astronaut suit from April Fool's day 2021.
+
+They could be simple, visible ways to slow down a runner. These could include:
+
+1.  Army boots instead of modern lightweight running shoes\
+    [insert image]
+2.  Full backpack\
+    [insert image]
+3.  A mini-parachute\
+    [insert image]
+4.  weighted vest\
+    [A insert image]
+5.  Push a pram/stroller\
+    [insert image]
+6.  Astronaut suit (April 2021)\
+    [insert image]
+7.  Pull a trailer/ pull a ball and chain\
+    [insert image]
+
+Please note which suggestions you like, and suggest others (and the order they should go in for progressive resistance steps) in the comments below.
+
+Ideally, you would add 2% resistance at each step, and have 6 grades of resistance (2, 4, 6, 8, 10, 12%) (training levels) that are harder than using the standard running gear. Once you are comfortable at training level 6 (12% harder than normal), you should be able to step up to the next Pace Partner (13%) when running in normal gear.
