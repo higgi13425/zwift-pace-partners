@@ -91,17 +91,12 @@ By adding a 5th Pace Partner, and slightly modifying the w/kg steps, we can prod
 
 Let's take a look at the Running Pace Partners, using the same sort of table.
 
-+---------------+-----------------+-----------------+-----------------+
-| Pace Partner  | mile Pace       | km Pace         | Percent Change  |
-+===============+=================+=================+=================+
-| Dax Diesel    | 12:04           | 724             | --              |
-+---------------+-----------------+-----------------+-----------------+
-| Cara Cadence  | 10:44           | 644             | 11.0%           |
-+---------------+-----------------+-----------------+-----------------+
-| Billie Benoit | 8:07            | 487             | 24.4%           |
-+---------------+-----------------+-----------------+-----------------+
-| Alton Able    | 6:54            | 414             | 15.0%           |
-+---------------+-----------------+-----------------+-----------------+
+| Pace Partner  | mile Pace | km Pace | Percent Change |
+|---------------|-----------|---------|----------------|
+| Dax Diesel    | 12:04     | 724     | --             |
+| Cara Cadence  | 10:44     | 644     | 11.0%          |
+| Billie Benoit | 8:07      | 487     | 24.4%          |
+| Alton Able    | 6:54      | 414     | 15.0%          |
 
 : Existing Running Pace Partners with seconds per mile and percent change.
 
@@ -113,19 +108,13 @@ Here is new proposed version with 5 Pace Partners that evens out the difficulty 
 
 Here is an updated list of Running Pace Partners, using the same table.
 
-+---------------+-----------+-----------+-----------------+-----------+
-| Pace Partner  | mile Pace | km Pace   | Percent Change  | Color     |
-+===============+===========+===========+=================+===========+
-| Eva Endura    | 12:04     | 7:33      | --              | Blue      |
-+---------------+-----------+-----------+-----------------+-----------+
-| Dax Diesel    | 10:30     | 6:34      | 13.0%           | Green     |
-+---------------+-----------+-----------+-----------------+-----------+
-| Cara Cadence  | 9:08      | 5:43      | 13.0%           | Yellow    |
-+---------------+-----------+-----------+-----------------+-----------+
-| Billie Benoit | 7:57      | 4:58      | 13.0%           | Orange    |
-+---------------+-----------+-----------+-----------------+-----------+
-| Alton Able    | 6:55      | 4:19      | 13.0%           | Red       |
-+---------------+-----------+-----------+-----------------+-----------+
+| Pace Partner  | mile Pace | km Pace | Percent Change | Color  |
+|---------------|-----------|---------|----------------|--------|
+| Eva Endura    | 12:04     | 7:33    | --             | Blue   |
+| Dax Diesel    | 10:30     | 6:34    | 13.0%          | Green  |
+| Cara Cadence  | 9:08      | 5:43    | 13.0%          | Yellow |
+| Billie Benoit | 7:57      | 4:58    | 13.0%          | Orange |
+| Alton Able    | 6:55      | 4:19    | 13.0%          | Red    |
 
 : Proposed Running Pace Partners with seconds per mile and percent change.
 
@@ -155,8 +144,7 @@ Now, this does not account for rolling hills or significant climbing, but it giv
 
 While we normally want the fastest bike possible for racing, with the coolest and sleekest profile, this is not ideal for training. Training should be done with gradually increased resistance. Ideally we would have more slow bikes, in a graded progression of \~ 4% more resistance, to help us take small steps up the ladder to the next Pace Partner.
 
-And, ideally, these "training bikes" would have clear visual cues, so that everyone knows you are working harder to keep up. Why do we need these visual cues? Well, people want to look good, and if they are working especially hard not to get dropped by D. Diesel, they want other people to know why. This certainly matters to male birds in the Birds of Paradise family in Papua New Guinea, as they have to show off their "resistance tail feathers" to get a [mate](http://www.birdsofparadiseproject.org/content.php?page=78) (Follow link for details on the Ribbon-tailed Astrapia).
-![ribbon-tailed-astrapia](images/ribbon-tailed-astrapia.jpg)
+And, ideally, these "training bikes" would have clear visual cues, so that everyone knows you are working harder to keep up. Why do we need these visual cues? Well, people want to look good, and if they are working especially hard not to get dropped by D. Diesel, they want other people to know why. This certainly matters to male birds in the Birds-of-Paradise family in Papua New Guinea, as they have to show off their "resistance tail feathers" to get a [mate](http://www.birdsofparadiseproject.org/content.php?page=78) (Follow link for details on the Ribbon-tailed Astrapia). ![ribbon-tailed-astrapia](images/ribbon-tailed-astrapia.jpg)
 
 So, what would slower "training bikes" look like? Fortunately, Zwift HQ has already built some.
 
@@ -173,27 +161,17 @@ So, what would slower "training bikes" look like? Fortunately, Zwift HQ has alre
 
 We would want steps that are roughly equivalent to the road to gravel bike, and the gravel to mountain bike transitions, and have enough training bikes to get us even steps up to 30% (where the next Pace Partner is). This would be about 4% per step, so the performance would look like the table below.
 
-+---------------+-------------------------+---------------+----------------+
-| Bike          | 2 lap Tempus Fugit time | Time in sec   | Percent Slower |
-+===============+=========================+===============+================+
-| Zwift Steel   | 52:40                   | 3100          | --             |
-+---------------+-------------------------+---------------+----------------+
-| Zwift Gravel  | 53:54                   | 3174          | 2.39           |
-+---------------+-------------------------+---------------+----------------+
-| Zwift MTB     | 55:53                   | 3348          | 6.23           |
-+---------------+-------------------------+---------------+----------------+
-| Training 1    | 57:50                   | 3410          | 10.00          |
-+---------------+-------------------------+---------------+----------------+
-| Training 2    | 59:54                   | 3534          | 14.00          |
-+---------------+-------------------------+---------------+----------------+
-| Training 3    | 60:56                   | 3596          | 16.00          |
-+---------------+-------------------------+---------------+----------------+
-| Training 4    | 62:00                   | 3720          | 20.00          |
-+---------------+-------------------------+---------------+----------------+
-| Training 5    | 64:04                   | 3844          | 24.00          |
-+---------------+-------------------------+---------------+----------------+
-| Training 6    | 66:08                   | 3968          | 28.00          |
-+---------------+-------------------------+---------------+----------------+
+| Bike         | 2 lap Tempus Fugit time | Time in sec | Percent Slower |
+|--------------|-------------------------|-------------|----------------|
+| Zwift Steel  | 52:40                   | 3100        | --             |
+| Zwift Gravel | 53:54                   | 3174        | 2.39           |
+| Zwift MTB    | 55:53                   | 3348        | 6.23           |
+| Training 1   | 57:50                   | 3410        | 10.00          |
+| Training 2   | 59:54                   | 3534        | 14.00          |
+| Training 3   | 60:56                   | 3596        | 16.00          |
+| Training 4   | 62:00                   | 3720        | 20.00          |
+| Training 5   | 64:04                   | 3844        | 24.00          |
+| Training 6   | 66:08                   | 3968        | 28.00          |
 
 : Zwift Insider Time for 2 laps of Tempus Fugit with a 183 cm rider weighing 75kg for Different Bikes with Zwift 32 mm Carbon wheels (with proposed Training Bikes added)
 
@@ -222,19 +200,13 @@ We need 6 more training bikes in addition to the Gravel and Mountain bikes. Whic
 
 The running Pace Partners have gradations of 13%, so it would be nice to have Visual Resistance Levels that are roughly \~ 2% progressive resistance steps, in addition to the 5 evenly-spaced Pace partners.
 
-+---------------+-----------+-----------+-----------------+-----------+
-| Pace Partner  | mile Pace | km Pace   | Percent Change  | Color     |
-+===============+===========+===========+=================+===========+
-| Eva Endura    | 12:04     | 7:33      | --              | Blue      |
-+---------------+-----------+-----------+-----------------+-----------+
-| Dax Diesel    | 10:30     | 6:34      | 13.0%           | Green     |
-+---------------+-----------+-----------+-----------------+-----------+
-| Cara Cadence  | 9:08      | 5:43      | 13.0%           | Yellow    |
-+---------------+-----------+-----------+-----------------+-----------+
-| Billie Benoit | 7:57      | 4:58      | 13.0%           | Orange    |
-+---------------+-----------+-----------+-----------------+-----------+
-| Alton Able    | 6:55      | 4:19      | 13.0%           | Red       |
-+---------------+-----------+-----------+-----------------+-----------+
+| Pace Partner  | mile Pace | km Pace | Percent Change | Color  |
+|---------------|-----------|---------|----------------|--------|
+| Eva Endura    | 12:04     | 7:33    | --             | Blue   |
+| Dax Diesel    | 10:30     | 6:34    | 13.0%          | Green  |
+| Cara Cadence  | 9:08      | 5:43    | 13.0%          | Yellow |
+| Billie Benoit | 7:57      | 4:58    | 13.0%          | Orange |
+| Alton Able    | 6:55      | 4:19    | 13.0%          | Red    |
 
 What might these visual resistance levels look like?
 
