@@ -15,13 +15,21 @@ library(here)
 
 What are Pace Partners?
 
-text here from ZInsider
+From Zwift Insider:
 
-Why can't we all have our own Pace Partners? It would be super-customized and awesome!
+*Pace Partners are bots, not real people. They ride at a consistent pace on a particular route, and you can easily join them if you're looking to ride with others.*
 
-This would be very computationally expensive for up to 46,000+ riders. Custom pace partners for everyone is impractical, unless (maybe) this done on the client side (rather than on the ZHQ servers), and your phone/android tablet/12 year old iMac is probably not up to running Zwift, your avatar, and a Pace Partner all at once.
+Pace Partners are always-on group rides in Watopia, rotating between 3 routes, at 4 different speeds (w/kg), which usually draw a good crowd for drafting and for sharing Ride Ons.
 
-But there is a reasonable approximation that could be created.
+![Image from Zwift Insider, Mar 28 2021](images/pace-partner.jpg)
+
+So why can't we all have our own custom Pace Partners? It would be awesome!
+
+Zwifters love the idea of their own customized Pace Partners, as they know it is very motivating to chase someone just a bit faster than you.
+
+However, this would be very computationally expensive for up to 46,000+ riders. Custom pace partners for everyone is impractical, unless (maybe) this is done on the client side (rather than on the ZHQ servers), and your phone/android tablet/12 year old iMac is probably not up to running Zwift, your avatar, and a Pace Partner all at once.
+
+But there is a reasonable approximation that ***could*** be created.
 
 ## Why Does Everyone *Want* Their Own Custom Pace Partner?
 
@@ -29,36 +37,33 @@ Because it is really effective training to push yourself to keep up with someone
 
 ## What is Progressive Resistance Exercise (PRE)?
 
-Details about Progressive Resistance Exercise here.\
-<https://academic.oup.com/ptj/article/85/11/1208/2805087>
+Progressive Resistance Exercise, or PRE, is used in sports training, physical therapy (physiotherapy), and any time you want to get stronger.
 
-Benefits include: increased ability of the trained muscles to produce force, benefits across the range of fitness, from impaired to young and able.
+The benefits of PRE include increased ability of the trained muscles to produce force, benefits that occur across the range of fitness, from the very unfit to the very fit, lowering blood pressure, and a long record of safety, even in folks who have suffered bone fractures or other injuries.
 
-Beneficial effect on lowering blood pressure
+A review of Progressive Resistance Exercise with details on existing studies can be found [here](https://academic.oup.com/ptj/article/85/11/1208/2805087).
 
-Quite safe, even in injured or impaired ppl
+Typical examples of PRE include
 
-Examples
+-   Increasing resistance to exercise with graded therapy bands (usually in different colors, with increasing thickness) in physical therapy after an injury.
 
-"handicapping" horses with weights
+-   Weight training, by adding a small increment of weight regularly.
 
-batters box - bat with weight - baseball doughnut, "hitting jack-it"
+-   Weighted vests for runners, treadmills that slope upward
 
-Weight lifting
+-   Training for a century ride - you increase your mileage by \~ 5-10% per week.
 
-Physical therapy/therapy bands
-
-Weighted vests, air masks, treadmills with slopes
-
-Training for a century - increase mileage by no more than 10% per week.
+The key to PRE is to increase the resistance or task by small increments to reach a larger goal. Large increases in difficulty will lead to failure, and often a discouraged participant.
 
 ## Why is PRE more fun than a disciplined training plan?
 
-There is a lot of evidence behind HIIT and organized training plans, but they hurt. And it is not terribly motivating to stare at a list of intervals while you are suffering. On the other hand, competing with other avatars in a race, or in trying to keep up with a pack, is pretty motivating. Taking the example of Boone, who has been training with Eric (*Couch to Cat C*, *C to B* blog series posts on ZwiftInsider), both races and chasing Pace Partners are fun for him. The VO2 intervals are effective, but are a bit like taking medicine. This is true for a lot of people, especially for the folks who choose Zwift over something like TrainerRoad. It may just be how we are wired.
+There is a lot of evidence behind HIIT and organized training plans, but they (will and should) hurt. And it is not terribly motivating to stare at a list of intervals while you are suffering. On the other hand, competing with other avatars in a race, or in trying to keep up with a pack, is pretty motivating. Taking the example of Boone, who has been training with Eric (*Couch to Cat C*, *C to B* blog series posts on ZwiftInsider), both races and chasing Pace Partners are fun for him. The VO2 intervals are effective, but are a bit like taking medicine. This is true for a lot of people, especially for the folks who choose Zwift over something like TrainerRoad. It may just be how we are wired.
+
+![Image from Zwift Insider, Jan 12 2021](images/boone.jpg)
 
 ## How Well do Pace Partners work for Progressive Resistance Exercise?
 
-The four cycling Pace Partners keep stable watts per kilogram (w/kg) which could make for a good progressive resistance training experience. However, there has been a lot of vigorous discussion/complaints on the Zwift Forums about the leap from 1.5 w/kg with D. Diesel to 2.5 w/kg with C. Cadence. Many riders feel that the gap between D and C is too large. Is that really a problem? Let's see how this measures up with a table.
+The four cycling Pace Partners keep a steady watts per kilogram (w/kg) which could make for a good progressive resistance training experience. However, there has been a lot of vigorous discussion/complaints on the Zwift Forums about the leap from 1.5 w/kg with D. Diesel to 2.5 w/kg with C. Cadence. Many riders feel that the gap between D and C is too large. Is that really a problem? Let's see how this measures up with a table.
 
 | Pace Partner | W/KG | Percent Increase |
 |--------------|------|------------------|
@@ -149,13 +154,12 @@ And, ideally, these "training bikes" would have clear visual cues, so that every
 So, what would slower "training bikes" look like? Fortunately, Zwift HQ has already built some.
 
 1.  The Buffalo Bike - the Buffalo Fahrrad - a heavy single speed bike with a coaster brake, built for the World Bicycle Relief event (and built IRL for durable low-cost transportation) is a perfect, distinctive "training bike".\
-    [insert image]
+    ![Buffalo Bike](images/buffalo-bike.jpg)
 
 2.  The Big Wheel Bike - used on April Fools' Day in 2015 and 2021.\
-    [insert image]
+    ![Big Wheel Bike](images/big-wheel.jpg)
 
-3.  The old-timey bike from April 2016\
-    [insert image]
+3.  The old-timey bike from April 2016 ![Old Timey Bike](images/old-timey.jpg)
 
 ## How would Slow Training Bikes Perform?
 
@@ -181,19 +185,24 @@ When you can ride comfortably with C. Cadence for an hour (pick your time), you 
 
 The Buffalo Bike and the Big Wheel bike would be a great start, and each offers a distinctive look. What could some other distinctive training bikes look like? Here are some ideas (tell me which you like most, what order (progressive resistance - from low to high resistance) they should go in, and add more ideas in the comments):
 
-1.  High-wheeler (pennyfarthing) bike (rider might get 1890s stripes and mustache)\
-    [insert image]
-2.  Beach Cruiser with fat tires, spilling sand\
-    [insert image]
-3.  Electra flat-foot bike with a front basket of groceries\
-    [insert image]
-4.  Bianchi City Vintage with a rear-mounted espresso machine\
-    [insert images]
-5.  Full Dutch Grandma bike (Omafiets) with basket, panniers, mudguards, and baby trailer\
-    [insert image]
-6.  Cargo bike (front-loader (bakfiet) - LarryvsHarry Bullitt or a longtail like Surly Big Fat Dummy)\
-    [insert image]
+1.  High-wheeler (pennyfarthing) bike (rider might get 1890s stripes and mustache)
 
+    \
+    ![Pennyfarthing Bike](images/pennyfarthing.png)
+
+1.  Beach Cruiser with fat tires, spilling sand\
+    ![Beach Cruiser Bike](images/beach-cruiser.jpg)
+2.  Electra flat-foot Townie bike with baskets full of groceries
+     ![Electra Townie Bike](images/townie.jpg)
+3.  Bianchi City Vintage with a rear-mounted espresso machine
+     ![Bianchi City Bike](images/bianchi.jpg)
+4.  Full Dutch Grandma bike (Omafiets) with basket, panniers, mudguards, and baby trailer\
+     ![Omafiets Bike](images/omafiets.jpg)
+5.  Cargo bike (could be a front-loader (bakfiet) - like the Larry vs. Harry Bullitt or a longtail like the Surly Big Fat Dummy)\
+ ![Bakfiet Bike](images/bullitt.jpg)
+
+ ![Surly Big Fat Dummy Bike](images/surly.jpg)
+ 
 We need 6 more training bikes in addition to the Gravel and Mountain bikes. Which would you like to see, and in what order? Mark which end is low vs high resistance, and let us know in the comments.
 
 ## What About PRE for Runners?
@@ -214,20 +223,20 @@ Zwift HQ has already built one VRL, the Astronaut suit from April Fool's day 202
 
 These Visual Resistance Levels (VRLs) could be simple, visible ways to slow down a runner. These could include:
 
-1.  Army boots instead of modern lightweight running shoes\
-    [insert image]
-2.  Full backpack\
-    [insert image]
-3.  A mini-parachute\
-    [insert image]
-4.  weighted vest\
-    [A insert image]
-5.  Push a pram/stroller\
-    [insert image]
-6.  Astronaut suit (April 2021)\
-    [insert image]
-7.  Pull a trailer/ pull a ball and chain\
-    [insert image]
+1.  Running while wearing military boots instead of modern lightweight running shoes\
+     ![Running with Army Boots](images/army-boots.jpg)
+2.  Running with a full backpack\
+     ![Running with a Backpack](images/backpack.jpg)
+3.  Running with a mini-parachute\
+     ![Running with a Parachute](images/parachute.jpg)
+4.  Running with a weighted vest\
+     ![Running with a Weighted Vest](images/weighted-vest.jpg)
+5.  Rnning while pushing a pram/stroller\
+     ![BRunning with a Stroller](images/stroller.jpg)
+6.  Running in an Astronaut suit (April 2021)\
+     ![Running in an Astronaut Suit](images/astronaut.jpg)
+7.  Running while pulling a trailer/ pull a ball and chain\
+     ![Running with a Ball and Chain](images/ball-chain.jpg)
 
 Please note which suggestions you like, and suggest others (and the order they should go in for progressive resistance steps, with the low and high resistance marked) in the comments below.
 
